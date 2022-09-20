@@ -7,8 +7,8 @@ export function Github() {
   return (
     <div>
       <Navbar />
-      <img src={github.avatar} width={200} />
-      <p>{github.name}</p>
+      <img src={github?.avatar_url} width={200} />
+      <p>{github?.name}</p>
     </div>
   );
 }
