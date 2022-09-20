@@ -7,8 +7,8 @@ export function Pokemon() {
   return (
     <div>
       <Navbar />
-      <img src={pokemon.picture} width={200} />
-      <p>{pokemon.name}</p>
+      <img src={pokemon?.sprites.front_default} width={200} />
+      <p>{pokemon?.name}</p>
     </div>
   );
 }
